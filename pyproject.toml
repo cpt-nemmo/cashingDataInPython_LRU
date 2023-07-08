@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cashing-data-in-python"
+version = "0.1.0"
+description = ""
+authors = ["cpt-nemmo <Yashkashustrij@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cashing_data_in_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
